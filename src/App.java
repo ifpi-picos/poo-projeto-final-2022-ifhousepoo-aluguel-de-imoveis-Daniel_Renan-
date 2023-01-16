@@ -79,13 +79,13 @@ public static void main(String[] args) {
  	       	    	System.out.println(" Digite um valor de referência: ");
  	       	    	int referencia=scanner.nextInt();
  	       	    	scanner.nextLine();
- 	       	    	System.out.println(" Digite o novo nome: ");
+ 	       	    	System.out.println(" Digite a nova descricao: ");
  	       	    	String novoDescricao = scanner.nextLine();
- 	       	    	System.out.println(" Digite o novo email: ");
+ 	       	    	System.out.println(" Digite o novo endereço: ");
  	       	    	String novoValor_aluguel = scanner.nextLine();
  	       	    	System.out.println(" Digite o nova data de nascimento: ");
  	       	    	String novaEndereco_completo = scanner.nextLine();
- 	       	    	System.out.println(" Digite o novo Endereço: ");
+ 	       	    	System.out.println(" Digite a nova data de cadastro: ");
  	       	    	String novoData_cadastro = scanner.nextLine();
  	       	    	Imovel im = imoveis.get(referencia);
  	       	    	im.setDescricao(novoDescricao);
