@@ -1,12 +1,13 @@
+
 import java.time.LocalDate;
 
 public class Usuario {
     private String nome;
     private String email;
-    private LocalDate data_nasc;
+    private String data_nasc;
     private String endereco_completo;
     
-    public Usuario(String nome, String email, LocalDate data_nasc, String endereco_completo) {
+    public Usuario(String nome, String email, String data_nasc, String endereco_completo) {
         this.nome = nome;
         this.email = email;
         this.data_nasc = data_nasc;
@@ -29,11 +30,11 @@ public class Usuario {
         this.email = email;
     }
 
-    public LocalDate getData_nasc() {
+    public String getData_nasc() {
         return data_nasc;
     }
 
-    public void setData_nasc(LocalDate data_nasc) {
+    public void setData_nasc(String data_nasc) {
         this.data_nasc = data_nasc;
     }
 
@@ -44,5 +45,8 @@ public class Usuario {
     public void setEndereco_completo(String endereco_completo) {
         this.endereco_completo = endereco_completo;
     }
+
+	
+	
     
 }
