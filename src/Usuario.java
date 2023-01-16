@@ -4,14 +4,14 @@ import java.time.LocalDate;
 public class Usuario {
     private String nome;
     private String email;
-    private String data_nasc;
-    private String endereco_completo;
+    private String dataNasc;
+    private String enderecoCompleto;
     
-    public Usuario(String nome, String email, String data_nasc, String endereco_completo) {
+    public Usuario(String nome, String email, String dataNasc, String enderecoCompleto) {
         this.nome = nome;
         this.email = email;
-        this.data_nasc = data_nasc;
-        this.endereco_completo = endereco_completo;
+        this.dataNasc = dataNasc;
+        this.enderecoCompleto = enderecoCompleto;
     }
 
     public String getNome() {
@@ -30,20 +30,20 @@ public class Usuario {
         this.email = email;
     }
 
-    public String getData_nasc() {
-        return data_nasc;
+    public String getDataNasc() {
+        return dataNasc;
     }
 
-    public void setData_nasc(String data_nasc) {
-        this.data_nasc = data_nasc;
+    public void setData_nasc(String dataNasc) {
+        this.dataNasc = dataNasc;
     }
 
-    public String getEndereco_completo() {
-        return endereco_completo;
+    public String getEnderecoCompleto() {
+        return enderecoCompleto;
     }
 
-    public void setEndereco_completo(String endereco_completo) {
-        this.endereco_completo = endereco_completo;
+    public void setEnderecoCompleto(String enderecoCompleto) {
+        this.enderecoCompleto = enderecoCompleto;
     }
 
 	
