@@ -1,39 +1,39 @@
 import java.time.LocalDate;
 
 public class Registro{
-    private LocalDate data_inicio;
-    private LocalDate data_fim;
-    private String imovel;
+    private LocalDate dataInicio;
+    private LocalDate dataFim;
+    private Imovel imovel;
     private Usuario usuario;
     
-    public Registro(LocalDate data_inicio, LocalDate data_fim, String imovel, Usuario usuario) {
-        this.data_inicio = data_inicio;
-        this.data_fim = data_fim;
+    public Registro(LocalDate dataInicio, LocalDate dataFim, Imovel imovel, Usuario usuario) {
+        this.dataInicio = dataInicio;
+        this.dataFim = dataFim;
         this.imovel = imovel;
         this.usuario = usuario;
     }
 
-    public LocalDate getData_inicio() {
+    public LocalDate getDataInicio() {
         return data_inicio;
     }
 
-    public void setData_inicio(LocalDate data_inicio) {
-        this.data_inicio = data_inicio;
+    public void setDataInicio(LocalDate dataInicio) {
+        this.dataInicio = dataInicio;
     }
 
-    public LocalDate getData_fim() {
-        return data_fim;
+    public LocalDate getDataFim() {
+        return dataFim;
     }
 
-    public void setData_fim(LocalDate data_fim) {
-        this.data_fim = data_fim;
+    public void setDataFim(LocalDate dataFim) {
+        this.dataFim = dataFim;
     }
 
     public String getImovel() {
         return imovel;
     }
 
-    public void setImovel(String imovel) {
+    public void setImovel(Imovel imovel) {
         this.imovel = imovel;
     }
 
