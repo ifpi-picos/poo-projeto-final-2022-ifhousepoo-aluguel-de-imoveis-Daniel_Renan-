@@ -4,15 +4,15 @@
 
 public class Imovel {
     private String descricao;
-    private String valor_aluguel;
-    private String endereco_completo;
-    private String data_cadastro;
+    private String valorAluguel;
+    private String enderecoCompleto;
+    private String dataCadastro;
     
-    public Imovel(String descricao, String valor_aluguel, String endereco_completo, String data_cadastro) {
+    public Imovel(String descricao, String valorAluguel, String enderecoCompleto, String dataCadastro) {
         this.descricao = descricao;
-        this.valor_aluguel = valor_aluguel;
-        this.endereco_completo = endereco_completo;
-        this.data_cadastro = data_cadastro;
+        this.valorAluguel = valorAluguel;
+        this.enderecoCmpleto = enderecoCompleto;
+        this.dataCadastro = dataCadastro;
     }
 
     public String getDescricao() {
@@ -23,28 +23,28 @@ public class Imovel {
         this.descricao = descricao;
     }
 
-    public String getValor_aluguel() {
-        return valor_aluguel;
+    public String getValorAluguel() {
+        return valorAluguel;
     }
 
-    public void setValor_aluguel(String valor_aluguel) {
-        this.valor_aluguel = valor_aluguel;
+    public void setValorAluguel(String valorAluguel) {
+        this.valorAluguel = valorAluguel;
     }
 
-    public String getEndereco_completo() {
-        return endereco_completo;
+    public String getEnderecoCompleto() {
+        return enderecoCompleto;
     }
 
-    public void setEndereco_completo(String endereco_completo) {
-        this.endereco_completo = endereco_completo;
+    public void setEndereco_completo(String enderecoCompleto) {
+        this.enderecoCompleto = enderecoCompleto;
     }
 
-    public String getData_cadastro() {
-        return data_cadastro;
+    public String getDataCadastro() {
+        return dataCadastro;
     }
 
-    public void setData_cadastro(String data_cadastro) {
-        this.data_cadastro = data_cadastro;
+    public void setDataCadastro(String dataCadastro) {
+        this.dataCadastro = dataCadastro;
     }
     
 }
