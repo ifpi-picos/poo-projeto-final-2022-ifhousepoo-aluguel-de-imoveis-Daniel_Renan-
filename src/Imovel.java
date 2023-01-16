@@ -1,12 +1,14 @@
-import java.time.LocalDate;
+
+
+	import java.time.LocalDate;
 
 public class Imovel {
     private String descricao;
-    private double valor_aluguel;
+    private String valor_aluguel;
     private String endereco_completo;
-    private LocalDate data_cadastro;
+    private String data_cadastro;
     
-    public Imovel(String descricao, double valor_aluguel, String endereco_completo, LocalDate data_cadastro) {
+    public Imovel(String descricao, String valor_aluguel, String endereco_completo, String data_cadastro) {
         this.descricao = descricao;
         this.valor_aluguel = valor_aluguel;
         this.endereco_completo = endereco_completo;
@@ -21,11 +23,11 @@ public class Imovel {
         this.descricao = descricao;
     }
 
-    public double getValor_aluguel() {
+    public String getValor_aluguel() {
         return valor_aluguel;
     }
 
-    public void setValor_aluguel(double valor_aluguel) {
+    public void setValor_aluguel(String valor_aluguel) {
         this.valor_aluguel = valor_aluguel;
     }
 
@@ -37,13 +39,12 @@ public class Imovel {
         this.endereco_completo = endereco_completo;
     }
 
-    public LocalDate getData_cadastro() {
+    public String getData_cadastro() {
         return data_cadastro;
     }
 
-    public void setData_cadastro(LocalDate data_cadastro) {
+    public void setData_cadastro(String data_cadastro) {
         this.data_cadastro = data_cadastro;
     }
     
 }
-
