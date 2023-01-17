@@ -14,7 +14,7 @@ public class Registro{
     }
 
     public LocalDate getDataInicio() {
-        return data_inicio;
+        return dataInicio;
     }
 
     public void setDataInicio(LocalDate dataInicio) {
