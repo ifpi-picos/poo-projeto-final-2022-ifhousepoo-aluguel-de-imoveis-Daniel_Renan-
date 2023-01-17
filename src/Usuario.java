@@ -7,7 +7,7 @@ public class Usuario {
     private LocalDate dataNasc;
     private Endereco enderecoCompleto;
     
-    public Usuario(String nome, String email, String dataNasc, String enderecoCompleto) {
+    public Usuario(String nome, String email, LocalDate dataNasc, Endereco enderecoCompleto) {
         this.nome = nome;
         this.email = email;
         this.dataNasc = dataNasc;
