@@ -9,7 +9,7 @@ public class Imovel {
     public Imovel(String descricao, String valorAluguel, String enderecoCompleto, String dataCadastro) {
         this.descricao = descricao;
         this.valorAluguel = valorAluguel;
-        this.enderecoCmpleto = enderecoCompleto;
+        this.enderecoCompleto = enderecoCompleto;
         this.dataCadastro = dataCadastro;
     }
 
@@ -33,7 +33,7 @@ public class Imovel {
         return enderecoCompleto;
     }
 
-    public void setEndereco_completo(String enderecoCompleto) {
+    public void setEnderecoCompleto(String enderecoCompleto) {
         this.enderecoCompleto = enderecoCompleto;
     }
 
