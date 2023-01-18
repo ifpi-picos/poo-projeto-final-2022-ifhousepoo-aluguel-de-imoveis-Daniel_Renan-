@@ -1,17 +1,17 @@
+package br.edu.ifpi.dominio;
+
 public class Endereco {
 
     private String rua;
-    private String bairro;
     private int numero;
+    private String bairro;
     private String cidade;
     private String uf;
     
-
-    
-    public Endereco(String rua, String bairro, int numero, String cidade, String uf) {
+    public Endereco(String rua, int numero, String bairro, String cidade, String uf) {
         this.rua = rua;
-        this.bairro = bairro;
         this.numero = numero;
+        this.bairro = bairro;
         this.cidade = cidade;
         this.uf = uf;
     }
@@ -22,17 +22,21 @@ public class Endereco {
     public void setRua(String rua) {
         this.rua = rua;
     }
-    public String getBairro() {
-        return bairro;
-    }
-    public void setBairro(String bairro) {
-        this.bairro = bairro;
-    }
+
     public int getNumero() {
         return numero;
     }
+    
     public void setNumero(int numero) {
         this.numero = numero;
+    }
+
+    public String getBairro() {
+        return bairro;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
     }
     public String getCidade() {
         return cidade;
@@ -47,5 +51,9 @@ public class Endereco {
         this.uf = uf;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Endereco [rua=" + rua + ", numero=" + numero + ", bairro=" + bairro + ", cidade=" + cidade + ", uf="
+                + uf + "]";
+    }
 }

@@ -1,3 +1,4 @@
+package br.edu.ifpi.dominio;
 import java.time.LocalDate;
 
 public class Imovel {
@@ -44,5 +45,10 @@ public class Imovel {
     public void setDataCadastro(LocalDate dataCadastro) {
         this.dataCadastro = dataCadastro;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Imovel [descricao=" + descricao + ", valorAluguel=" + valorAluguel + ", enderecoCompleto="
+                + enderecoCompleto + ", dataCadastro=" + dataCadastro + "]";
+    }
 }

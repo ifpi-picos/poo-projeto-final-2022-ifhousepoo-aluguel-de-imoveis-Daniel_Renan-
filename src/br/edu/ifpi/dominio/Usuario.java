@@ -1,4 +1,4 @@
-
+package br.edu.ifpi.dominio;
 import java.time.LocalDate;
 
 public class Usuario {
@@ -46,7 +46,9 @@ public class Usuario {
         this.enderecoCompleto = enderecoCompleto;
     }
 
-	
-	
-    
+    @Override
+    public String toString() {
+        return "Usuario [nome=" + nome + ", email=" + email + ", dataNasc=" + dataNasc + ", enderecoCompleto="
+                + enderecoCompleto + "]";
+    }
 }
